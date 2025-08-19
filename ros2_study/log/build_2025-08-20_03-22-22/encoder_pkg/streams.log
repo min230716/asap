@@ -1,0 +1,37 @@
+[0.652s] Invoking command in '/home/min/my-ros2-project/ros2_study/src/encoder_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(my-ros2-project) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/min/my-ros2-project/ros2_study/build/encoder_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/my-ros2-project/ros2_study/install/encoder_pkg/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(my-ros2-project) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/encoder_pkg build --build-base /home/min/my-ros2-project/ros2_study/build/encoder_pkg/build install --record /home/min/my-ros2-project/ros2_study/build/encoder_pkg/install.log --single-version-externally-managed install_data
+[0.847s] running egg_info
+[0.848s] creating ../../build/encoder_pkg/encoder_pkg.egg-info
+[0.860s] writing ../../build/encoder_pkg/encoder_pkg.egg-info/PKG-INFO
+[0.860s] writing dependency_links to ../../build/encoder_pkg/encoder_pkg.egg-info/dependency_links.txt
+[0.861s] writing entry points to ../../build/encoder_pkg/encoder_pkg.egg-info/entry_points.txt
+[0.861s] writing requirements to ../../build/encoder_pkg/encoder_pkg.egg-info/requires.txt
+[0.861s] writing top-level names to ../../build/encoder_pkg/encoder_pkg.egg-info/top_level.txt
+[0.861s] writing manifest file '../../build/encoder_pkg/encoder_pkg.egg-info/SOURCES.txt'
+[0.892s] reading manifest file '../../build/encoder_pkg/encoder_pkg.egg-info/SOURCES.txt'
+[0.893s] writing manifest file '../../build/encoder_pkg/encoder_pkg.egg-info/SOURCES.txt'
+[0.895s] running build
+[0.895s] running build_py
+[0.895s] creating /home/min/my-ros2-project/ros2_study/build/encoder_pkg/build
+[0.895s] creating /home/min/my-ros2-project/ros2_study/build/encoder_pkg/build/lib
+[0.895s] creating /home/min/my-ros2-project/ros2_study/build/encoder_pkg/build/lib/encoder_pkg
+[0.895s] copying encoder_pkg/encoder_publisher.py -> /home/min/my-ros2-project/ros2_study/build/encoder_pkg/build/lib/encoder_pkg
+[0.895s] copying encoder_pkg/__init__.py -> /home/min/my-ros2-project/ros2_study/build/encoder_pkg/build/lib/encoder_pkg
+[0.895s] running install
+[0.899s] running install_lib
+[0.913s] creating /home/min/my-ros2-project/ros2_study/install/encoder_pkg/lib/python3.12/site-packages/encoder_pkg
+[0.913s] copying /home/min/my-ros2-project/ros2_study/build/encoder_pkg/build/lib/encoder_pkg/encoder_publisher.py -> /home/min/my-ros2-project/ros2_study/install/encoder_pkg/lib/python3.12/site-packages/encoder_pkg
+[0.913s] copying /home/min/my-ros2-project/ros2_study/build/encoder_pkg/build/lib/encoder_pkg/__init__.py -> /home/min/my-ros2-project/ros2_study/install/encoder_pkg/lib/python3.12/site-packages/encoder_pkg
+[0.913s] byte-compiling /home/min/my-ros2-project/ros2_study/install/encoder_pkg/lib/python3.12/site-packages/encoder_pkg/encoder_publisher.py to encoder_publisher.cpython-312.pyc
+[0.915s] byte-compiling /home/min/my-ros2-project/ros2_study/install/encoder_pkg/lib/python3.12/site-packages/encoder_pkg/__init__.py to __init__.cpython-312.pyc
+[0.915s] running install_data
+[0.915s] creating /home/min/my-ros2-project/ros2_study/install/encoder_pkg/share/ament_index
+[0.915s] creating /home/min/my-ros2-project/ros2_study/install/encoder_pkg/share/ament_index/resource_index
+[0.915s] creating /home/min/my-ros2-project/ros2_study/install/encoder_pkg/share/ament_index/resource_index/packages
+[0.915s] copying resource/encoder_pkg -> /home/min/my-ros2-project/ros2_study/install/encoder_pkg/share/ament_index/resource_index/packages
+[0.915s] copying package.xml -> /home/min/my-ros2-project/ros2_study/install/encoder_pkg/share/encoder_pkg
+[0.915s] running install_egg_info
+[0.928s] Copying ../../build/encoder_pkg/encoder_pkg.egg-info to /home/min/my-ros2-project/ros2_study/install/encoder_pkg/lib/python3.12/site-packages/encoder_pkg-0.0.0-py3.12.egg-info
+[0.931s] running install_scripts
+[1.017s] Installing encoder_pub script to /home/min/my-ros2-project/ros2_study/install/encoder_pkg/lib/encoder_pkg
+[1.017s] writing list of installed files to '/home/min/my-ros2-project/ros2_study/build/encoder_pkg/install.log'
+[1.045s] Invoked command in '/home/min/my-ros2-project/ros2_study/src/encoder_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(my-ros2-project) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/min/my-ros2-project/ros2_study/build/encoder_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/my-ros2-project/ros2_study/install/encoder_pkg/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(my-ros2-project) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/encoder_pkg build --build-base /home/min/my-ros2-project/ros2_study/build/encoder_pkg/build install --record /home/min/my-ros2-project/ros2_study/build/encoder_pkg/install.log --single-version-externally-managed install_data
